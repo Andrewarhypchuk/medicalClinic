@@ -348,6 +348,15 @@ document.getElementById('start').onclick = function(){
     clients.push(client);
     console.log(client);
     document.getElementById('great').classList.add('none');
+
+    document.getElementById('tick1').classList.add('none');
+    document.getElementById('tick2').classList.add('none');
+    document.getElementById('tick3').classList.add('none');
+    document.getElementById('tick4').classList.add('none');
+    document.getElementById('tick5').classList.add('none');
+
+     document.getElementById('submit').setAttribute('disabled','disabled')
+
     document.getElementById('input1').value = '';
     document.getElementById('input2').value = '';
     document.getElementById('input3').value = '';
